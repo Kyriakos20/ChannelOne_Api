@@ -1,0 +1,34 @@
+{
+  "name": "ChannelOneAPI",
+  "version": "1.0.12",
+  "description": "",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "actionhero": "^13.2.1",
+    "ah-autosession-plugin": "^11.0.0",
+    "ah-mongodb-plugin": "^1.0.1",
+    "bcrypt": "^0.8.5",
+    "cheerio": "^0.20.0",
+    "csv": "^0.4.6",
+    "csv-write-stream": "^1.0.0",
+    "esparse": "^0.1.2",
+    "fs": "0.0.2",
+    "lodash": "^4.13.1",
+    "mailgun-js": "^0.7.12",
+    "moment": "^2.12.0",
+    "mongoose-auto-increment": "^5.0.1",
+    "path": "^0.12.7",
+    "request": "^2.72.0",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "actionhero start",
+    "actionhero": "actionhero",
+    "test": "NODE_ENV=test mocha"
+  },
+  "author": "",
+  "license": ""
+}

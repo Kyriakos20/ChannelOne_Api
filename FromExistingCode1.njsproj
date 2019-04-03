@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3a3c2085-c73a-472f-b1fe-94f1afbf2225}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
+    <StartWebBrowser>True</StartWebBrowser>
+    <SaveNodeJsSettingsInProjectFile>True</SaveNodeJsSettingsInProjectFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include="mongo_scripts.txt" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="actions\appActions.js" />
+    <Content Include="actions\authActions.js" />
+    <Content Include="actions\callActions.js" />
+    <Content Include="actions\centerActions.js" />
+    <Content Include="actions\doghouseActions.js" />
+    <Content Include="actions\evolveActions.js" />
+    <Content Include="actions\leadActions.js" />
+    <Content Include="actions\migrationActions.js" />
+    <Content Include="actions\propertyActions.js" />
+    <Content Include="actions\reportActions.js" />
+    <Content Include="actions\scrapeActions.js" />
+    <Content Include="actions\scrubActions.js" />
+    <Content Include="actions\showDocumentation.js" />
+    <Content Include="actions\status.js" />
+    <Content Include="actions\teamActions.js" />
+    <Content Include="actions\userActions.js" />
+    <Content Include="actions\zipActions.js" />
+    <Content Include="config\api.js" />
+    <Content Include="config\errors.js" />
+    <Content Include="config\i18n.js" />
+    <Content Include="config\logger.js" />
+    <Content Include="config\redis.js" />
+    <Content Include="config\routes.js" />
+    <Content Include="config\tasks.js" />
+    <Content Include="initializers\applications.js" />
+    <Content Include="initializers\auth.js" />
+    <Content Include="initializers\calls.js" />
+    <Content Include="initializers\centers.js" />
+    <Content Include="initializers\doghouse.js" />
+    <Content Include="initializers\evolve.js" />
+    <Content Include="initializers\helpers.js" />
+    <Content Include="initializers\leads.js" />
+    <Content Include="initializers\migrations.js" />
+    <Content Include="initializers\properties.js" />
+    <Content Include="initializers\reports.js" />
+    <Content Include="initializers\scraper.js" />
+    <Content Include="initializers\scrubber.js" />
+    <Content Include="initializers\teams.js" />
+    <Content Include="initializers\users.js" />
+    <Content Include="initializers\zips.js" />
+    <Content Include="models\Application.js" />
+    <Content Include="models\DestinyLead.js" />
+    <Content Include="models\DocOut.js" />
+    <Content Include="models\EvolveCall.js" />
+    <Content Include="models\EvolveCenter.js" />
+    <Content Include="models\Lead.js" />
+    <Content Include="models\Property.js" />
+    <Content Include="models\ScrubResult.js" />
+    <Content Include="models\Team.js" />
+    <Content Include="models\User.js" />
+    <Content Include="models\UserFilter.js" />
+    <Content Include="models\WPRequest.js" />
+    <Content Include="models\ZillowData.js" />
+    <Content Include="models\Zip.js" />
+    <Content Include="notes\notes.txt" />
+    <Content Include="notes\notes2.txt" />
+    <Content Include="public\chat.html" />
+    <Content Include="public\index.html" />
+    <Content Include="tasks\prepareAssignments.js" />
+    <Content Include="tasks\processAssignment.js" />
+    <Content Include="tasks\processClosedRow.js" />
+    <Content Include="tasks\processDestinyLead.js" />
+    <Content Include="tasks\processDestinyZillowApi.js" />
+    <Content Include="tasks\processEvolveCall.js" />
+    <Content Include="tasks\processEvolveCenter.js" />
+    <Content Include="tasks\processFakeVal.js" />
+    <Content Include="tasks\processFixEquity.js" />
+    <Content Include="tasks\processLeadOwner.js" />
+    <Content Include="tasks\processLeadUser.js" />
+    <Content Include="tasks\processNWEZillowApi.js" />
+    <Content Include="tasks\processOldLead.js" />
+    <Content Include="tasks\processOldLeadColor.js" />
+    <Content Include="tasks\processOldLeadNote.js" />
+    <Content Include="tasks\processPhone.js" />
+    <Content Include="tasks\processScrubbedValue.js" />
+    <Content Include="tasks\processSearchBugRow.js" />
+    <Content Include="tasks\processSheetLead.js" />
+    <Content Include="tasks\processSValue.js" />
+    <Content Include="tasks\processTelePhone.js" />
+    <Content Include="tasks\processTrust.js" />
+    <Content Include="tasks\processUSAPhoneFix.js" />
+    <Content Include="tasks\processWhitePhone.js" />
+    <Content Include="tasks\processYellowPhone.js" />
+    <Content Include="tasks\processZillowApi.js" />
+    <Content Include="tasks\processZillowData.js" />
+    <Content Include="tasks\processZillowScraper.js" />
+    <Content Include="tasks\startSValues.js" />
+    <Content Include="test\example.js" />
+    <Content Include="config\plugins\ah-autosession-plugin.js" />
+    <Content Include="config\plugins\ah-mongo-plugin.js" />
+    <Content Include="config\servers\socket.js" />
+    <Content Include="config\servers\web.js" />
+    <Content Include="config\servers\websocket.js" />
+    <Content Include="public\css\actionhero.css" />
+    <Content Include="public\javascript\actionheroClient.js" />
+    <Content Include="public\javascript\actionheroClient.min.js" />
+    <Content Include="public\logo\actionhero.png" />
+    <Content Include="public\logo\sky.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="actions" />
+    <Folder Include="config" />
+    <Folder Include="config\plugins" />
+    <Folder Include="config\servers" />
+    <Folder Include="FromExistingCode1" />
+    <Folder Include="FromExistingCode1\FromExistingCode1" />
+    <Folder Include="initializers" />
+    <Folder Include="initializers\plugins" />
+    <Folder Include="models" />
+    <Folder Include="notes" />
+    <Folder Include="public" />
+    <Folder Include="public\css" />
+    <Folder Include="public\javascript" />
+    <Folder Include="public\logo" />
+    <Folder Include="tasks" />
+    <Folder Include="test" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

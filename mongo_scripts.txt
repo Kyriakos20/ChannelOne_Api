@@ -1,0 +1,43 @@
+// remove duplicates from leads
+
+db.leads2.insert({property:1,user:1});
+
+db.leads2.createIndex({user:1,property:1},{unique:true});
+
+var leads = db.leads.find({});
+
+leads.forEach(function(doc){db.leads2.insert({user:doc.user,property:doc.property});});
+
+db.leads.drop();
+
+db.leads2.renameCollection("leads");
+
+
+
+// find dups
+
+db.leads.aggregate(
+
+  // Pipeline
+  [
+    // Stage 1
+    {
+      $group: {
+      	_id:{user:"$user",property:"$property"},
+      	 uniqueIds: { $addToSet: "$_id" },
+          count: { $sum: 1 }
+      }
+    },
+
+    // Stage 2
+    {
+      $match: {
+      	count: { $gt: 1 }
+      }
+    }
+
+  ]
+
+  // Created with 3T MongoChef, the GUI for MongoDB - http://3t.io/mongochef
+
+);

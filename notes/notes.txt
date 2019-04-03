@@ -1,0 +1,102 @@
+1
+cathine@pivnet5.net
+X1-ZWz1fcuvbl39qj_3if65
+c2-54-152-230-208.compute-1.amazonaws.com
+
+2
+holly@aforamazing.com
+X1-ZWz19nnlmujnrf_3jtqm
+ec2-54-209-44-150.compute-1.amazonaws.com
+
+3
+cassandra@motheringadreamer.com
+X1-ZWz1fcurdiv5sb_3fm17
+ec2-52-90-216-255.compute-1.amazonaws.com
+
+4
+kim@krabstick.com
+X1-ZWz19nnhosbjt7_3mmvk
+ec2-54-85-89-196.compute-1.amazonaws.com
+
+5
+nicole@afouramazing.com
+X1-ZWz1fcv37pjhmz_3o1g1
+ec2-54-174-240-55.compute-1.amazonaws.com
+
+6
+stephanie@ltrc.football
+X1-ZWz19nndqq3fuz_3pg0i
+ec2-52-91-87-64.compute-1.amazonaws.com
+
+7
+betty@commutebaltimore.net
+X1-ZWz19nntiyzvnv_3e7gq
+ec2-54-88-112-114.compute-1.amazonaws.com
+
+8
+julie@dejulcorp.com
+X1-ZWz1fcuz9nbdor_3l8b3
+ec2-52-91-209-70.compute-1.amazonaws.com
+
+9
+X1-ZWz1a8dz1qevij_1llb0
+dredgewire.com
+
+10
+X1-ZWz1es4lurg5xn_1mzvh
+blackoakusa.net
+
+11
+X1-ZWz1a8dv3o6rkb_1oefy
+pahwa.developdc.net
+
+12
+X1-ZWz1es4psto9vv_1pt0f
+a4amazing.com
+
+13
+X1-ZWz1a8dr5lynm3_1r7kw
+mdperinataloutreach.com
+
+14
+X1-ZWz1duk7dc2ebv_adn99
+ltrcfootball.com
+
+
+var zillowKeys = [
+  'X1-ZWz1a8dz1qevij_1llb0',
+  'X1-ZWz1es4lurg5xn_1mzvh',
+  'X1-ZWz1a8dv3o6rkb_1oefy',
+  'X1-ZWz1es4psto9vv_1pt0f',
+  'X1-ZWz1a8dr5lynm3_1r7kw',
+  'X1-ZWz1duk7dc2ebv_adn99'
+];
+
+dcrowley
+Jud3061875
+AccountID 584639592571
+Signin: https://your_aws_account_id.signin.aws.amazon.com/console/
+ex login: ssh -i "ua_macbook_pro.pem" ubuntu@ec2-54-152-230-208.compute-1.amazonaws.com
+
+server {
+        listen 80 default_server;
+        listen [::]:80 default_server ipv6only=on;
+
+        root /usr/share/nginx/www;
+        index index.php index.html index.htm;
+
+        server_name localhost;
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+
+        location ~ \.php$ {
+                try_files $uri =404;
+                fastcgi_split_path_info ^(.+\.php)(/.+)$;
+                fastcgi_pass unix:/var/run/php5-fpm.sock;
+                fastcgi_index index.php;
+                fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+                include fastcgi_params;
+        }
+}

@@ -1,0 +1,87 @@
+ZWz1es4psto9vv_1pt0f
+
+o http://v7-staging.ord.ua-ecm.com:30300/svc-giftcards:3000/activateGiftCard
+
+
+http://www.zillow.com/webservice/GetSearchResults.htm?zws-id=X1-ZWz1duk7dc2ebv_adn99&address=1 Teaneck Ct&citystatezip=Lutherville Timonium, MD
+
+{
+  "amount": null,
+  "referenceNumber": null,
+  "systemTraceNumber": 225,
+  "date": null,
+  "transactionNumber": "632757",
+  "ean": "F5058709F0ABDC20A73C45E2859C4B32",
+  "pin": "46985146",
+  "authorizationCode": "204623",
+  "responseCode": null,
+  "merchantId": 300042189,
+  "terminalId": 1,
+  "alternateMerchantId": null,
+  "cashBack": null,
+  "cardNumber": "7777007069977858",
+  "cardNo": "7777007069977858",
+  "previousBalance": null,
+  "newBalance": 30,
+  "currBal": 30,
+  "lockAmount": null,
+  "echoBack": null,
+  "basePreviousBalance": null,
+  "baseNewBalance": null,
+  "baseLockAmount": null,
+  "baseCashBack": null,
+  "expirationDate": "01013025",
+  "cardClass": 190,
+  "baseCurrency": null,
+  "currency": 840,
+  "callTraceInformation": null,
+  "discountedAmount": null,
+  "exchangeRate": null,
+  "sourceCode": null,
+  "promotionCode": null,
+  "merchantKeyId": null,
+  "originalTransactionRequestCode": 2102,
+  "svdot": "40\u001c0900\u001c11000225\u001c38204623\u001c3900\u001c750\u001c763000\u001c707777007069977858\u001cA001013025\u001c15632757\u001c42990842899970001\u001c4400000000000\u001cF62102\u001cB0190\u001c780\u001c34F5058709F0ABDC20A73C45E2859C4B32\u001cC0840",
+  "version": 4,
+  "format": null,
+  "code": 900,
+  "redeemAmt": null,
+  "time": null,
+  "exception": null,
+  "decryptError": null,
+  "error": null
+}
+
+
+
+"{"VERSION":"7.0.10","ACTUAL_PAGE_TYPE":"B2C Checkout","CONFIG":{"base_url":"https://staging.underarmour.com","cartitems":{"max_quantity":30},"giftboxes":{"skus":["1288359-001-OSFA","1288360-001-OSFA","1288361-001-OSFA"]},"armourbox":{"skus":["AB_SKU"]},"grid":{"stack_size":10,"page_size":60,"tiles":{"orientations":[["portrait","landscape"],null,["portrait","landscape"],null],"columns":[[2,3],2,[2,3],4],"heights":[[305,305],485,[485,485],485],"imgSize":[[150,184],[281,345],[281,345],[281,345],[281,345]],"widthOverrides":[["320px","510px"],null,[null,null],null]}},"facebook":{"scope":["email","user_likes","friends_likes","user_birthday","friends_birthday","publish_actions"],"unlink":"https://www.facebook.com/settings?tab=applications","app_id":"10153766706016311"},"paypal":{"enable":true},"paypalcredit":{"enable":false},"dynamicyield":{"enable":true,"enable_deferred":false},"mapmyfitness":{"unlink":"https://www.mapmyfitness.com/oauth/manage/"},"files":{"scene7":{"base_url":"//underarmour.scene7.com/is/image/Underarmour/","base_url_content":"//underarmour.scene7.com/is/content/Underarmour/"}},"richrelevance":{"apikey":"6eb6947bc3fabf51","env":"integration"},"rnt":{"desktop":{"base_url":"//underarmour.custhelp.com/app/chat/chat_launch_popup"},"mobile":{"base_url":"//underarmour.custhelp.com/app/chat/chat_launch/chat_data/cV9pZD0xJg==/request_source/7"}},"twitter":{"base_url":"https://twitter.com/share?"},"pinterest":{"base_url":"http://pinterest.com/pin/create/button/?"},"typeahead":"http://typeahead.ua.com","support":{"US":{"phone":"1-888-727-6687","site":"//underarmour.custhelp.com/"},"CA":{"phone":"1-888-666-1182","site":"//underarmour-canada.custhelp.com"}},"liveclicker":{"account":387},"youtube":{"url":"https://www.youtube.com/iframe_api"},"store_locator_url":{"mobile":"https://mobile.where2getit.com/underarmour/2015/index.html?form=locator_search&addressline=$zip$&country=$country$","tablet":"https://hosted.where2getit.com/underarmour/2015/tablet.html?form=locator_search&addressline=$zip$&country=$country$","desktop":"https://hosted.where2getit.com/underarmour/2015/index.html?form=locator_search&addressline=$zip$&country=$country$"},"shoprunner":{"retailerID":"UARM","environmentID":1,"enabled":true},"quizzard":{"suppress_debug_info":true},"apm":{"sampleRatio":1,"endpoint":"/api/apm/performance"},"truefit":{"environment":"staging","client_id":"und","force_mobile":false,"enabled":true},"cart_last_updated":{"name":"cart_last_updated","max_cart_age":3600000},"liveramp":{"base_url":"https://ei.rlcdn.com/401186.html"}},"REQUEST":{"sessionID":"U6swiYbwcOY-iv25_rL1rff4x-Rxg4Nl","visitor":{"is_authenticated":false},"runtime":{"site":"US","lang":"en","currency":"USD","locale_segment":"/en-us","path":"/checkout","is_motionpoint":false}},"api_proxy":{"checkout":"/platform-api/v0.0/checkout","checkoutOrder":"/platform-api/v0.0/checkout/order","checkoutPayPal":"/platform-api/v0.0/checkout/paypal/lookup/payment","checkoutPayPalCart":"/platform-api/v0.0/checkout/paypal/lookup/cart","checkoutPayPalCredit":"/platform-api/v0.0/checkout/paypal-credit/lookup/payment","giftcardBalance":"/platform-api/v0.0/giftcard/balance","cart":"/en-us/api/cart/proxy/cart/US/SIDU6swiYbwcOY-iv25_rL1rff4x-Rxg4Nl","validateCart":"/en-us/api/cart/proxy/cart/US/validate","emailCart":"/platform-api/v0.0/cart/US/SIDU6swiYbwcOY-iv25_rL1rff4x-Rxg4Nl/email","cartSaved":"/en-us/api/cart/proxy/cart-saved/US/SAVSIDU6swiYbwcOY-iv25_rL1rff4x-Rxg4Nl"},"free_returns":true,"CHECKOUT_DATA":{"payment_error":null,"id_me_popup_url":"https://api.id.me/oauth/authorize?client_id=430195ff5cc50d179d1cbada10891f7…mour.com%2Fen-us%2Fapi%2Fcheckout%2Fid-me&response_type=code&display=popup","postal_lookup":{"enabled":true,"timeout":1000},"supportsShopRunner":true,"qasEnabled":true},"DISABLE_CART_POPOVER":true,"SR":true,"VISA_CHECKOUT_CONFIG":{"api_key":"QF1BP0MUPIKCB9SKUDNT13nmUFC-FANVzYwxu4XJHCxiDQrJ4","enabled":true,"profiles":{"US":"USA","CA":"Canada"},"card_brands":["VISA","MASTERCARD","AMEX","DISCOVER"],"host":"sandbox.secure.checkout.visa.com","button_url":"/wallet-services-web/xo/button.png"},"DIGITALDATA":{"pageInstanceID":"B2C Checkout-US/checkout","isInternalTraffic":false,"page":{"pageID":"https://staging.underarmour.com/en-us/checkout","pageName":"UnderArmour Checkout","destinationURL":"https://staging.underarmour.com/en-us/checkout","tracking_tags":[],"referingURL":"https://staging.underarmour.com/en-us/cart","language":"en","geoRegion":{"country":"US","region":"MD","city":"BALTIMORE","continent":"NA"},"attributes":{"campaignID":null,"currency":"USD","pageTypeAbstracted":"B2C Checkout","pagePath":"/checkout","profileType":["visitor^returning"],"social_data":false,"customerStatus":"returning","customerType":"New"}},"widgets":{"CATEGORY":{"id":861,"title":"GEAR RECOMMENDED FOR YOU","enable":true},"PRODUCT_ALSO_LIKE":{"id":862,"title":"You Might Also Like","enable":true},"PRODUCT_GOES_GREAT":{"id":863,"title":"Goes Great With","enable":true},"CART_ADDED":{"id":864,"title":"CUSTOMERS ALSO BOUGHT","enable":true},"CART":{"id":865,"title":"CUSTOMERS ALSO BOUGHT","enable":true},"NO_RESULTS":{"id":866,"title":"PEOPLE WITH SIMILAR INTERESTS ALSO VIEWED","enable":true},"POST_PURCHASE":{"id":867,"title":"PEOPLE WHO BOUGHT THIS ITEM ALSO BOUGHT","enable":true}},"ctx":{},"dyo":[{"objectId":88679,"objectName":"TN_C","conditionName":"Set the Cookie","conditionId":119845,"objectType":"SmartAction - Javascript Action","variations":["New"],"variationIds":[1811697]}]},"performance":{"JS_START":1468938703889,"navTiming":{},"memory":{"jsHeapSizeLimit":1530000000,"totalJSHeapSize":12700000,"usedJSHeapSize":10000000,"availHeap":2700000},"pageType":"B2C Checkout","version":"7.0.10","location":"https://staging.underarmour.com/en-us/checkout","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36","timing":{"firstPaintTime":660.85205078125,"firstPaint":1468938704363.706,"loadTime":2090,"domReadyTime":440,"readyStart":0,"redirectTime":0,"appcacheTime":0,"unloadEventTime":4,"lookupDomainTime":0,"connectTime":0,"requestTime":149,"initDomTreeTime":1487,"loadEventTime":8,"headToDomReady":1486,"headToLoad":1896},"dimensions":{"width":1425,"height":921}},"Typeahead":{}}"
+
+
+
+----=============-------
+
+"{"VERSION":"7.0.10","ACTUAL_PAGE_TYPE":"Content","CONFIG":{"base_url":"https://staging.underarmour.com","cartitems":{"max_quantity":30},"giftboxes":{"skus":["1288359-001-OSFA","1288360-001-OSFA","1288361-001-OSFA"]},"armourbox":{"skus":["AB_SKU"]},"grid":{"stack_size":10,"page_size":60,"tiles":{"orientations":[["portrait","landscape"],null,["portrait","landscape"],null],"columns":[[2,3],2,[2,3],4],"heights":[[305,305],485,[485,485],485],"imgSize":[[150,184],[281,345],[281,345],[281,345],[281,345]],"widthOverrides":[["320px","510px"],null,[null,null],null]}},"facebook":{"scope":["email","user_likes","friends_likes","user_birthday","friends_birthday","publish_actions"],"unlink":"https://www.facebook.com/settings?tab=applications","app_id":"10153766706016311"},"paypal":{"enable":true},"paypalcredit":{"enable":false},"dynamicyield":{"enable":true,"enable_deferred":false},"mapmyfitness":{"unlink":"https://www.mapmyfitness.com/oauth/manage/"},"files":{"scene7":{"base_url":"//underarmour.scene7.com/is/image/Underarmour/","base_url_content":"//underarmour.scene7.com/is/content/Underarmour/"}},"richrelevance":{"apikey":"6eb6947bc3fabf51","env":"integration"},"rnt":{"desktop":{"base_url":"//underarmour.custhelp.com/app/chat/chat_launch_popup"},"mobile":{"base_url":"//underarmour.custhelp.com/app/chat/chat_launch/chat_data/cV9pZD0xJg==/request_source/7"}},"twitter":{"base_url":"https://twitter.com/share?"},"pinterest":{"base_url":"http://pinterest.com/pin/create/button/?"},"typeahead":"http://typeahead.ua.com","support":{"US":{"phone":"1-888-727-6687","site":"//underarmour.custhelp.com/"},"CA":{"phone":"1-888-666-1182","site":"//underarmour-canada.custhelp.com"}},"liveclicker":{"account":387},"youtube":{"url":"https://www.youtube.com/iframe_api"},"store_locator_url":{"mobile":"https://mobile.where2getit.com/underarmour/2015/index.html?form=locator_search&addressline=$zip$&country=$country$","tablet":"https://hosted.where2getit.com/underarmour/2015/tablet.html?form=locator_search&addressline=$zip$&country=$country$","desktop":"https://hosted.where2getit.com/underarmour/2015/index.html?form=locator_search&addressline=$zip$&country=$country$"},"shoprunner":{"retailerID":"UARM","environmentID":1,"enabled":true},"quizzard":{"suppress_debug_info":true},"apm":{"sampleRatio":1,"endpoint":"/api/apm/performance"},"truefit":{"environment":"staging","client_id":"und","force_mobile":false,"enabled":true},"cart_last_updated":{"name":"cart_last_updated","max_cart_age":3600000},"liveramp":{"base_url":"https://ei.rlcdn.com/401186.html"}},"REQUEST":{"sessionID":"U6swiYbwcOY-iv25_rL1rff4x-Rxg4Nl","visitor":{"is_authenticated":false},"runtime":{"site":"US","lang":"en","currency":"USD","locale_segment":"/en-us","path":"/","is_motionpoint":false}},"api_proxy":{"checkout":"/platform-api/v0.0/checkout","checkoutOrder":"/platform-api/v0.0/checkout/order","checkoutPayPal":"/platform-api/v0.0/checkout/paypal/lookup/payment","checkoutPayPalCart":"/platform-api/v0.0/checkout/paypal/lookup/cart","checkoutPayPalCredit":"/platform-api/v0.0/checkout/paypal-credit/lookup/payment","giftcardBalance":"/platform-api/v0.0/giftcard/balance","cart":"/en-us/api/cart/proxy/cart/US/SIDU6swiYbwcOY-iv25_rL1rff4x-Rxg4Nl","validateCart":"/en-us/api/cart/proxy/cart/US/validate","emailCart":"/platform-api/v0.0/cart/US/SIDU6swiYbwcOY-iv25_rL1rff4x-Rxg4Nl/email","cartSaved":"/en-us/api/cart/proxy/cart-saved/US/SAVSIDU6swiYbwcOY-iv25_rL1rff4x-Rxg4Nl"},"free_returns":true,"DIGITALDATA":{"pageInstanceID":"Content-US/","isInternalTraffic":false,"page":{"pageID":"https://staging.underarmour.com/en-us/","pageName":"Under Armour Sports Apparel, Athletic Shoes, & Accessories","destinationURL":"https://staging.underarmour.com/en-us/","tracking_tags":["Homepage Tag"],"language":"en","geoRegion":{"country":"US","region":"MD","city":"BALTIMORE","continent":"NA"},"attributes":{"campaignID":null,"currency":"USD","pageTypeAbstracted":"Content","pagePath":"/","profileType":["visitor^returning"],"social_data":false,"customerStatus":"returning","customerType":"New"}},"widgets":{"CATEGORY":{"id":861,"title":"GEAR RECOMMENDED FOR YOU","enable":true},"PRODUCT_ALSO_LIKE":{"id":862,"title":"You Might Also Like","enable":true},"PRODUCT_GOES_GREAT":{"id":863,"title":"Goes Great With","enable":true},"CART_ADDED":{"id":864,"title":"CUSTOMERS ALSO BOUGHT","enable":true},"CART":{"id":865,"title":"CUSTOMERS ALSO BOUGHT","enable":true},"NO_RESULTS":{"id":866,"title":"PEOPLE WITH SIMILAR INTERESTS ALSO VIEWED","enable":true},"POST_PURCHASE":{"id":867,"title":"PEOPLE WHO BOUGHT THIS ITEM ALSO BOUGHT","enable":true}},"ctx":{"type":"HOMEPAGE"},"dyo":[{"objectId":88679,"objectName":"TN_C","conditionName":"Set the Cookie","conditionId":119845,"objectType":"SmartAction - Javascript Action","variations":["New"],"variationIds":[1811697]}]},"performance":{"JS_START":1468939005872,"navTiming":{},"memory":{"jsHeapSizeLimit":1530000000,"totalJSHeapSize":12700000,"usedJSHeapSize":10000000,"availHeap":2700000},"pageType":"Content","version":"7.0.10","location":"https://staging.underarmour.com/en-us/","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36","timing":{"firstPaintTime":1036.72705078125,"firstPaint":1468939006461.009,"loadTime":2074,"domReadyTime":338,"readyStart":80,"redirectTime":79,"appcacheTime":0,"unloadEventTime":0,"lookupDomainTime":0,"connectTime":0,"requestTime":343,"initDomTreeTime":1300,"loadEventTime":13,"headToDomReady":1308,"headToLoad":1612},"dimensions":{"width":1425,"height":920}},"Typeahead":{}}"
+
+
+node = 1;
+
+1.		incr 2
+2.		
+
+
+db.properties.find({oldId:{$gt:1110000},"phones":{$exists:true},'phones':{$size:1}},{"phones":1,oldId:1});
+db.properties.find({oldId:{$gt:1110000},mortgageValue:{$exists:true},"mortgageValue.value":{$exists:true}},{"address.state":1,oldId:1});
+
+db.properties.count({oldId:{$gt:1110000},"phones":{$exists:true},'phones':{$size:1},mortgageValue:{$exists:true},"mortgageValue.value":{$exists:true}},{"address.state":1,oldId:1});
+
+db.properties.count({oldId:{$gt:1110000},"phones":{$exists:true},'phones':{$size:1},mortgageValue:{$exists:true},"mortgageValue.value":{$exists:true},currentEquity:{$gt:0}},{"address.state":1,oldId:1});
+
+db.properties.count({ oldId:{$gt:1110000}, canCall: { $ne: "No" }, canMail: { $ne: "No" }, phones: { $exists: true, $not: { $size: 0 } } });
+
+db.properties.count({ oldId:{$gt:1110000}, "address.state":{$not:{$in:['SC','OK']}},canCall: { $ne: "No" }, canMail: { $ne: "No" }, phones: { $exists: true, $not: { $size: 0 } } });
+
+
+SC:  582
+OK:  339
+
+db.properties.count({ oldId:{$gt:1110000}, "address.state":{$in:['SC','OK']}});

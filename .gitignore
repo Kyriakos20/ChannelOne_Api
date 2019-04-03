@@ -1,0 +1,7 @@
+.idea
+log
+node_modules
+locales
+pids
+imports
+.DS_Store
